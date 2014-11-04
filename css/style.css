@@ -2,6 +2,7 @@
 a {
     text-decoration: none;
 }
+
 body {
     background: #fff;
     content: #58595b;
@@ -21,7 +22,7 @@ li {
     list-style: none;
 }
 
-h1, h2, h3, ul,p {
+h1, h2, h3, ul, p {
     margin: 0;
     padding: 0;
 }
@@ -31,26 +32,99 @@ html, body {
     height: 100%;
     margin: 0;
 }
-*{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-section, header, footer, nav, section, #slider {
+
+body {
+    background: url("../images/background.jpg");
+    background-size: cover;
+}
+
+/*=================================================================
+general
+===================================================================*/
+
+.margen {
     margin: 0 auto;
     width: 1080px;
+}
+
+.radius {
+    border: 1px solid #66b1e0;
+    border-radius: 6px;
 }
 
 /*=================================================================
 header
 ===================================================================*/
 header {
-    text-align: center;
+    background: rgba(39, 33, 158, 0.38);
+    color: #fff;
+    padding: 10px 0;
 }
+
+header figure {
+    border: 1px solid #66b1e0;
+    flex-grow: 1;
+    height: 50px;
+    max-width: 100px;
+}
+
+header form {
+    flex-grow: 2;
+    position: relative;
+}
+
+header figure, header form, .header-top-right {
+    align-self: center;
+}
+
+header form input[type="search"] {
+    font-size: .8em;
+    height: 25px;
+    margin: 0 20px;
+    padding: 0 25px;
+    width: 300px;
+}
+
+header form button {
+    left: 22px;
+    position: absolute;
+    top: 3px;
+}
+
+.header-top-right a {
+    align-self: center;
+    color: white;
+    font-size: .8em;
+}
+
+.header-top-right .tools {
+    align-self: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.new-account {
+    align-self: center;
+    background: #66b1e0;
+    box-shadow: inset 1px 1px 2px, inset -1px 0px 1px #a8ddff;
+    border: 2px solid #9dcfef;
+    color: #113148;
+    font-size: .8em;
+    margin: 0 6px;
+    padding: 5px 10px;
+}
+
 /*=================================================================
 Nav
 ===================================================================*/
-nav{
-    border-top: 2px solid #545454;
-    text-align:left;
+nav {
+   background: #66b1e0;
 }
