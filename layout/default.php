@@ -55,14 +55,18 @@
 </header>
 <nav>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="">Genero</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Norteña</a></li>
+        <li><a href="">Ranchera</a></li>
+        <li><a href="">Vallenato</a></li>
+        <li><a href="">Tropical</a></li>
+        <li><a href="">Merengue</a></li>
+
     </ul>
 </nav>
+<h1>Artistas Destacados</h1>
+<span>Septiembre-2014</span>
 <div id="wrapper">
     <?php include $fileName; ?>
 </div>
