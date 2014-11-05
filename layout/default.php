@@ -38,7 +38,7 @@
 <body>
 
 <header>
-    <div class="margen flex">
+    <div class="margin-wrapper flex">
         <figure>
             <img src="" alt=""/>
         </figure>
@@ -54,7 +54,7 @@
     </div>
 </header>
 <nav>
-    <ul>
+    <ul class="margin-wrapper">
         <li><a href="">Genero</a></li>
         <li><a href="">Popular</a></li>
         <li><a href="">Norteña</a></li>
@@ -65,9 +65,7 @@
 
     </ul>
 </nav>
-<h1>Artistas Destacados</h1>
-<span>Septiembre-2014</span>
-<div id="wrapper">
+<div id="wrapper" >
     <?php include $fileName; ?>
 </div>
 <footer></footer>
