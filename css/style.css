@@ -1,3 +1,52 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("fonts/flaticon.eot");
+    src: url("fonts/flaticon.eot#iefix") format("embedded-opentype"), url("fonts/flaticon.woff") format("woff"), url("fonts/flaticon.ttf") format("truetype"), url("fonts/flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+
+}
+
+.flaticon-like:before {
+    content: "\e000";
+}
+
+.flaticon-machine2:before {
+    content: "\e001";
+}
+
+.flaticon-search100:before {
+    content: "\e002";
+}
+
+.flaticon-search54:before {
+    content: "\e003";
+}
+
+.flaticon-star129:before {
+    content: "\e004";
+}
+
+.flaticon-star138:before {
+    content: "\e005";
+}
+
+.flaticon-star83:before {
+    content: "\e006";
+}
+
+.flaticon-thumb31:before {
+    content: "\e007";
+}
+
+.flaticon-thumb52:before {
+    content: "\e008";
+}
 
 a {
     text-decoration: none;
@@ -11,8 +60,8 @@ body {
     font-size: 16px;
 }
 
-body, h2, h3, h4, p {
-    font-weight: 300
+h2, h3, h4, h5 {
+    margin: 0;
 }
 
 *:focus {
@@ -44,6 +93,12 @@ body {
     background: url("../images/background.jpg");
     background-size: cover;
 }
+
+button {
+    background: none;
+    border: none;
+}
+
 /*=================================================================
 header
 ===================================================================*/
@@ -78,9 +133,10 @@ header form input[type="search"] {
 }
 
 header form button {
-    left: 22px;
+    color: #a3a3a3;
+    left: 20px;
     position: absolute;
-    top: 3px;
+    top: 2px;
 }
 
 .header-top-right a {
@@ -91,8 +147,13 @@ header form button {
 
 .header-top-right .tools {
     align-self: center;
+    color: #66b1e0;
+    display: inline-block;
+    font-size: 1.3em ;
+    margin-top: -4px;
+    padding : 0;
+    vertical-align: middle;
 }
-
 .flex {
     display: flex;
 }
@@ -113,83 +174,179 @@ Nav
 ===================================================================*/
 
 nav {
-   background: #66b1e0;
+    background: #66b1e0;
 
 }
-nav li{
+
+nav li {
     display: inline-block;
     vertical-align: middle;
 }
-nav li a{
-    color:#ffffff;
+
+nav li a {
+    color: #ffffff;
     padding: 10px 5px 10px 0;
     display: block;
 }
+
 /*=================================================================
 global artistas
 ===================================================================*/
-.global-artistas hgroup{
-    margin-top:10px
+.global-artistas hgroup {
+    margin-top: 10px
 }
-.global-artistas nav{
+
+.global-artistas nav {
     background: none;
     margin-top: -20px;
     text-align: center;
 }
-.nav-label div{
-    border-bottom: 1px solid #66b1e0;
 
-    width: 100%;
+.nav-label div {
+    border-bottom: 1px solid #66b1e0;
+    width: 120%;
 }
-.nav-label ul{
+
+.nav-label ul {
     border-top: 1px solid #66b1e0;
     border-left: 1px solid #66b1e0;
     border-right: 1px solid #66b1e0;
 }
-.nav-label ul a{
+
+.nav-label ul a {
     color: #a3a3a3;
     padding: 6px 5px 6px 0;
 }
-.artist{
+
+.nav-label div:last-child {
+    width: 70%;
+}
+
+.artist {
 
     border: 1px solid #66b1e0;
 }
-.artist figure{
-    border: 1px solid #66b1e0;
-    float: left;
-    margin: 0;
+
+.artist figure {
+    display: inline-block;
+    margin: 8px 8px 5px;
+    width: 150px;
+    vertical-align: top;
 }
-.contend-artist li.column-3{
+
+.artist img {
+    border: 1px solid #66b1e0;
+    max-width: 100%;
+}
+
+.column-4 .artist figure {
+    width: 85px;
+}
+
+.info-artist {
+    display: inline-block;
+    margin: 10px 0;
+    width: 160px
+}
+.column-4 .info-artist{
+    max-width: 150px
+}
+
+.column-4 .links-song a{
+    font-size: .7rem
+}
+.info-artist h4 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.info-artist h5 {
+    color: #66b1e0;
+    font-weight: 500;
+    font-size: .7em;
+}
+
+.info-artist p {
+    font-weight: 500;
+    font-size: .7em;
+}
+.info-artist .flaticon-star138{
+    color: #66b1e0;
+    display: inline-block;
+    padding: 3px 3px 3px 0;
+}
+.info-artist p span {
+    font-weight: 500;
+    color: #6c6d6d;
+}
+
+.contend-artist {
+    padding: 20px 0
+}
+
+.contend-artist > ul > li {
+    margin-bottom: 10px;
+}
+.contend-artist .song{
+    font-size: .65rem;
+    font-weight: 500;
+    color: #6c6d6d;
+    margin: 3px 0;
+}
+.contend-artist .song li{
+    border-bottom: 1px solid #6c6d6d;
+    padding: 2px 0;
+}
+.contend-artist span{
+    display:inline-block;
+    vertical-align: top;
+}
+.contend-artist .song li span{
+    display:inline-block;
+    border-color:transparent transparent transparent #6c6d6d;
+    border-style:solid;
+    border-width: 4px 6px;
+    margin: 2px -2px 0 3px;
+    vertical-align: top;
+}
+.contend-artist li.column-3 {
     padding: 0 5px;
 }
-.contend-artist li.column-3:nth-child(3n){
+
+.contend-artist li.column-3:nth-child(3n) {
     padding-right: 0;
     padding-left: 10px;
 }
 
-.contend-artist li.column-3:nth-child(3n + 1){
+.contend-artist li.column-3:nth-child(3n + 1) {
     padding-right: 10px;
     padding-left: 0;
 }
 
-.contend-artist li.column-4:nth-child(4n + 1){
-    padding: 0 7px 0 4px  ;
-
+.contend-artist li.column-4:nth-child(4n + 1) {
+    padding: 0 7px 0 4px;
 
 }
-.contend-artist li.column-4:nth-child(4n + 2){
-    padding: 0 4px 0 7px  ;
+
+.contend-artist li.column-4:nth-child(4n + 2) {
+    padding: 0 4px 0 7px;
 }
-.contend-artist li.column-4:nth-child(4n){
+
+.contend-artist li.column-4:nth-child(4n) {
     padding-right: 10px;
     padding-left: 0;
 }
 
-.contend-artist li.column-4:nth-child(4n + 3){
+.contend-artist li.column-4:nth-child(4n + 3) {
     padding-right: 0;
     padding-left: 10px;
 }
-
+.links-song a{
+    font-size: .8rem;
+}
+.links-song span{
+    padding-right: 4px;
+}
 /*=================================================================
 general
 ===================================================================*/
@@ -203,16 +360,23 @@ general
     border: 1px solid #66b1e0;
     border-radius: 6px;
 }
+
 .column-3 {
     display: inline-block;
     vertical-align: top;
-    margin-right:-2px ;
+    margin-right: -2px;
     width: 33.3%;
 }
 
 .column-4 {
     display: inline-block;
     vertical-align: top;
-    margin-right:-3px ;
+    margin-right: -3px;
     width: 25%;
+}
+.off{
+    color: #243e4e !important;
+}
+.current{
+    color: #66b1e0 !important;
 }

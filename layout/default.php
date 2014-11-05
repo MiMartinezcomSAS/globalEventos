@@ -44,12 +44,12 @@
         </figure>
         <form action="">
             <input type="search" class="radius" placeholder="Buscar Artistas, Generos, Canciones..."/>
-            <button><span class="icon-">l</span></button>
+            <button><span class="flaticon-search54"></span></button>
         </form>
         <div class="header-top-right">
             <a href="">Ingresar</a>
             <button class="new-account radius">Crear una cuenta</button>
-            <button class="tools"><span class="icon-"></span></button>
+            <button class="tools"><span class="flaticon-machine2"></span></button>
         </div>
     </div>
 </header>
