@@ -116,7 +116,7 @@
             <img src="images/artistas/luis_posada.jpg" alt=""/>
         </figure>
         <div class="info-artist">
-            <h4>Luis Alberto Posada</h4>
+            <h4>Luis Posada</h4>
             <h5>Sin un Adios</h5>
 
             <p><span>Genero: </span> Popular</p>
@@ -191,7 +191,7 @@
             <img src="images/artistas/sebastian.jpg" alt=""/>
         </figure>
         <div class="info-artist">
-            <h4>Sebastian El Coyote</h4>
+            <h4> El Coyote</h4>
             <h5>Aunque Pasen Los Años</h5>
 
             <p><span>Genero: </span> Popular</p>
@@ -392,9 +392,9 @@
         </figure>
         <div class="info-artist">
             <h4>Uriel Henao</h4>
-            <h5>Prefiero Una Tumba En Colombia</h5>
+            <h5>Llego El Amor</h5>
 
-            <p><span>Genero: </span> Norteña</p>
+            <p><span>Genero: </span> Popular</p>
             <span class="flaticon-star138"></span>
             <span class="flaticon-star138"></span>
             <span class="flaticon-star138"></span>
