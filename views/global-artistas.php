@@ -18,6 +18,7 @@
 <ul>
 <li class="column-3">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/gabriel.jpg" alt=""/>
         </figure>
@@ -48,6 +49,7 @@
 </li>
 <li class="column-3">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/jimmy_gutierrez.jpg" alt=""/>
         </figure>
@@ -78,6 +80,7 @@
 </li>
 <li class="column-3">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/jhon.jpg" alt=""/>
         </figure>
@@ -108,6 +111,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/luis_posada.jpg" alt=""/>
         </figure>
@@ -132,6 +136,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/charrito.jpg" alt=""/>
         </figure>
@@ -156,6 +161,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/dario_gomez.jpg" alt=""/>
         </figure>
@@ -180,6 +186,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/sebastian.jpg" alt=""/>
         </figure>
@@ -204,6 +211,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/ayala.jpg" alt=""/>
         </figure>
@@ -228,6 +236,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/jhonny_rivera.jpg" alt=""/>
         </figure>
@@ -252,6 +261,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/pipe.jpg" alt=""/>
         </figure>
@@ -276,6 +286,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/luisito.jpg" alt=""/>
         </figure>
@@ -300,6 +311,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/fernando.jpg" alt=""/>
         </figure>
@@ -324,6 +336,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/dario_dario.jpg" alt=""/>
         </figure>
@@ -348,6 +361,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/rey_fonseca.jpg" alt=""/>
         </figure>
@@ -372,6 +386,7 @@
 </li>
 <li class="column-4">
     <div class="artist">
+        <span class="like "><span class="flaticon-thumb52"></span></span>
         <figure>
             <img src="images/artistas/uriel.jpg" alt=""/>
         </figure>

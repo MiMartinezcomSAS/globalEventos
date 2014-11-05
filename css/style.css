@@ -223,8 +223,8 @@ global artistas
 }
 
 .artist {
-
     border: 1px solid #66b1e0;
+    position: relative;
 }
 
 .artist figure {
@@ -286,6 +286,7 @@ global artistas
 
 .contend-artist > ul > li {
     margin-bottom: 10px;
+
 }
 .contend-artist .song{
     font-size: .65rem;
@@ -346,6 +347,22 @@ global artistas
 }
 .links-song span{
     padding-right: 4px;
+}
+.like{
+    border-color:#66b1e0 #66b1e0 transparent transparent;
+    border-style:solid;
+    border-width:0 28px  26px 0;
+    font-size: .6rem;
+    height:0;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width:0;
+}
+.like .flaticon-thumb52{
+    left: 16px;
+    position: absolute;
+    top: 2px;
 }
 /*=================================================================
 general
