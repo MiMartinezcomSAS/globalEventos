@@ -36,11 +36,11 @@
             <li class="column-3">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/jimmy_gutierrez.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
-                        <h4>Gabriel Arriaga</h4>
-                        <h4>El caballero de la ranchera</h4>
+                        <h4>Jimmy Gutierrez</h4>
+                        <h4>Pa las que sea</h4>
 
                         <p>Genero: <span>Ranchera</span></p>
                         <span class="icon"></span>
@@ -53,7 +53,7 @@
             <li class="column-3">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/jhon.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -70,7 +70,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/luis_posada.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -87,7 +87,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/charrito.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -104,7 +104,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/dario_gomez.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -121,7 +121,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/sebastian.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -138,7 +138,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/ayala.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -155,7 +155,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/jhonny_rivera.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -172,7 +172,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/pipe.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -189,7 +189,7 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/luisito.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
@@ -206,7 +206,58 @@
             <li class="column-4">
                 <div class="artist">
                     <figure>
-                        <img src="images/artistas/gabriel.jpg" alt=""/>
+                        <img src="images/artistas/fernando.jpg" alt=""/>
+                    </figure>
+                    <div class="info-artist">
+                        <h4>Gabriel Arriaga</h4>
+                        <h4>El caballero de la ranchera</h4>
+
+                        <p>Genero: <span>Ranchera</span></p>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li class="column-4">
+                <div class="artist">
+                    <figure>
+                        <img src="images/artistas/dario_dario.jpg" alt=""/>
+                    </figure>
+                    <div class="info-artist">
+                        <h4>Gabriel Arriaga</h4>
+                        <h4>El caballero de la ranchera</h4>
+
+                        <p>Genero: <span>Ranchera</span></p>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li class="column-4">
+                <div class="artist">
+                    <figure>
+                        <img src="images/artistas/rey_fonseca.jpg" alt=""/>
+                    </figure>
+                    <div class="info-artist">
+                        <h4>Gabriel Arriaga</h4>
+                        <h4>El caballero de la ranchera</h4>
+
+                        <p>Genero: <span>Ranchera</span></p>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li class="column-4">
+                <div class="artist">
+                    <figure>
+                        <img src="images/artistas/uriel.jpg" alt=""/>
                     </figure>
                     <div class="info-artist">
                         <h4>Gabriel Arriaga</h4>
