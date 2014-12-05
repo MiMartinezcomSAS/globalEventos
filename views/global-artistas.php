@@ -413,3 +413,6 @@
 </ul>
 </div>
 </section>
+<section id="flayer">
+	<img src="images/brochure.jpg" alt="Gran Show Ecuestre">
+</section>

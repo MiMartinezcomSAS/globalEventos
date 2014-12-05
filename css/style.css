@@ -109,12 +109,17 @@ header {
 }
 
 header figure {
-    border: 1px solid #66b1e0;
+   
     flex-grow: 1;
     height: 50px;
-    max-width: 100px;
+    max-width: 49px;
 }
-
+header figure img {
+   
+    flex-grow: 1;
+    height: 55px;
+    max-width: 49px;
+}
 header form {
     flex-grow: 2;
     position: relative;
@@ -396,4 +401,12 @@ general
 }
 .current{
     color: #66b1e0 !important;
+}
+
+#flayer{
+	margin: 0 auto;
+	width: 1080px;
+}
+#flayer img{
+	max-width: 100%
 }

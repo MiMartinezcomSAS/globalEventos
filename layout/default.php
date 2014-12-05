@@ -40,7 +40,7 @@
 <header>
     <div class="margin-wrapper flex">
         <figure>
-            <img src="" alt=""/>
+            <img src="images/logo.png" alt=""/>
         </figure>
         <form action="">
             <input type="search" class="radius" placeholder="Buscar Artistas, Generos, Canciones..."/>
